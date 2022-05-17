@@ -9,7 +9,7 @@ from dash.dependencies import Input, Output
 
 dataset = pd.read_csv("assets/roll_attitude_frequency_sweep.csv")
 
-intervalRateMs = 50
+intervalRateMs = 1000
 frameRateHz = 100
 timeHistoryToDisplay = 30
 
